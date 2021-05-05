@@ -5,19 +5,22 @@ PODS:
     - BSImageView (= 1.0.3)
   - BSImageView (1.0.3)
   - Flutter (1.0.0)
-  - flutter_absolute_path (0.0.1):
-    - Flutter
   - multi_image_picker (4.7.15):
     - BSImagePicker (~> 2.10.3)
     - Flutter
-  - storage_path (0.0.1):
+  - path_provider (0.0.1):
+    - Flutter
+  - photo_manager (0.0.1):
+    - Flutter
+  - video_player (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - flutter_absolute_path (from `.symlinks/plugins/flutter_absolute_path/ios`)
   - multi_image_picker (from `.symlinks/plugins/multi_image_picker/ios`)
-  - storage_path (from `.symlinks/plugins/storage_path/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
+  - video_player (from `.symlinks/plugins/video_player/ios`)
 
 SPEC REPOS:
   trunk:
@@ -28,21 +31,24 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  flutter_absolute_path:
-    :path: ".symlinks/plugins/flutter_absolute_path/ios"
   multi_image_picker:
     :path: ".symlinks/plugins/multi_image_picker/ios"
-  storage_path:
-    :path: ".symlinks/plugins/storage_path/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  photo_manager:
+    :path: ".symlinks/plugins/photo_manager/ios"
+  video_player:
+    :path: ".symlinks/plugins/video_player/ios"
 
 SPEC CHECKSUMS:
   BSGridCollectionViewLayout: 333dcb457a5a3bdd9212607ab5756553dcfe06cb
   BSImagePicker: 07404254f2fcdaf5a2eb403c0f8c337267ce8738
   BSImageView: a149459433a2687157d034c78e059d30ac7f2544
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_absolute_path: 5adb13678c88f0bdfba527f3851f9543d01dde66
   multi_image_picker: 58577ab96d99b35c82d626db7d81906d14c2b667
-  storage_path: 01f784dd58721c942550f38ead993d6d6a87189a
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  photo_manager: f7c619c2cc8c2adb8d85c63363babac477de9c67
+  video_player: 9cc823b1d9da7e8427ee591e8438bfbcde500e6e
 
 PODFILE CHECKSUM: 2aefbf1cd59b1478d690438cdeaad81b8226e38f
 

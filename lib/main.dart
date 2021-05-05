@@ -1,4 +1,5 @@
 import 'package:classificate_baby_pictures/view/Home.dart';
+import 'package:classificate_baby_pictures/view/MediaGrid.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Home(),
+      home: Home(),//MediaGrid(),
     );
   }
 }
