@@ -1,5 +1,4 @@
 import 'package:classificate_baby_pictures/view/Home.dart';
-import 'package:classificate_baby_pictures/view/MediaGrid.dart';
 import 'package:flutter/material.dart';
 
 void main() {
