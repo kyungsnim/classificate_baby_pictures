@@ -33,6 +33,7 @@ dependencies:
   path_provider: ^1.6.28
   toast: ^0.1.5
   image_picker: ^0.6.7+22
+  file_picker: ^2.1.7
 
   # for profile image setting
   cloud_firestore: ^0.14.4
